@@ -1,0 +1,79 @@
+.Footer {
+  display: flex;
+  align-items: center;
+  padding: 0px 56px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.6rem;
+  margin-right: 40px;
+  flex: 1;
+  p {
+    font-size: 0.9rem;
+    color: #5a5e60;
+    text-align: justify;
+  }
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  span {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+}
+.facebook {
+  background-color: #3b5998;
+}
+.instagram,
+.pinterest {
+  background-color: #fd1d1d;
+}
+.twitter {
+  background-color: #00acee;
+}
+.Links {
+  flex: 1;
+  display: flex;
+  row-gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+}
+.links-items {
+  display: flex;
+  align-items: center;
+  ul {
+    margin-left: 50px;
+    font-size: 0.9rem;
+    color: #5a5e60;
+    li {
+      margin-top: 10px;
+    }
+  }
+  .contact {
+    flex: 1;
+  }
+}
+.contact {
+  display: flex;
+  flex: 1;
+  row-gap: 1rem;
+  flex-direction: column;
+  div {
+    display: flex;
+    align-items: center;
+    column-gap: 0.9rem;
+    span {
+      color: #5a5e60;
+    }
+  }
+}
